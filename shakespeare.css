@@ -1,0 +1,71 @@
+.name{
+    font-family:Times, serif;
+    font-size:  20px;
+    color:black;
+}
+.speech{
+    font-family:times, serif;
+    font-size:15px;
+    color:black;
+}
+.stage-direction{
+    color:black;
+    font-family:times, serif;
+    font-size : 15px;
+    background-color:skyblue;
+}
+.stage-direction:hover{
+    background-color: burlywood;
+    color:crimson;
+}
+.Antiochus{
+    color:cyan;
+}
+.Pericles{
+    color:darkgoldenrod;
+}
+.Daughter{
+    color:seagreen;
+}
+.Messenger{
+    color:violet;
+}
+.Thaliard{
+    color:red;
+}
+.table{
+    color:tomato;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
+table, th, td{
+    border:3px groove;
+}
+tr:nth-child(even)
+{
+    background-color: violet;
+}
+.name:hover{
+    text-shadow: 4px 4px 4px darkviolet;
+    border:deeppink;
+    border: firebrick;
+}
+ul.navbar-horizontal{
+    list-style-type: none;
+    margin:0;
+    padding: 0;
+}
+ul.navbar-horizontal li{
+    float:left;
+    color:#000;
+    background-color: greenyellow;
+}
+ul.navbar-horizontal a{
+    display:block;
+    padding: 7px;
+}
+ul.navbar-horizontal a:hover{
+    background-color: #555;
+    color:white;
+}
